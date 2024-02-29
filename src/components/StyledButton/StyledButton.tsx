@@ -19,7 +19,7 @@ const StyledButton: React.FC <StyledButtonProps> = ({children,onClick }) => {
         justifyContent: "center",
         gap: "10px",
         '&:hover': {
-            backgroundColor: theme.palette.primary.contrastText
+            backgroundColor: theme.palette.secondary.light
         }
     }))
   
